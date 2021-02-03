@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+/* добавила свои шрифт*/
+@font-face {
+    font-family: 'Kanyon';
+    src: url(../fonts/Kanyon-Regular.woff2) format ('woff2'),
+        url(../fonts/Kanyon-Regular.woff) format ('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Juan';
+    src: url(../fonts/Juan.woff2) format('woff2'),
+        url(../fonts/Juan.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Juan';
+    src: url(../fonts/Juan.woff2)format('woff2'),
+        url(../fonts/Juan.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* применим фон для всего боди */
+body {
+	background-color: #d6bbc8bb;
+}
+
+/* выделяем все заголовок первого уровня*/
+h1 {
+	font-family:'Juan';
+	color: #ac0707c5;
+	font-size: 45px;
+	font-style: normal;
+	text-align: center;
+	text-shadow: 5px 5px 6px #ffffff;
+}
+
+/* работа с меню сайта */
+
+nav {
+	background-color: #e9b658ce;
+	color: #000000;
+	font-style: normal;
+	font-size: 25px;
+	text-align: center;
+	margin: 20px 30px 10px;
+}
+
+
+p {
+	font-family: 'Juan';
+	background-color: seashell;
+	padding:20px 30px 10px 20px; 
+}
+
+/* экспериментируем с падингом */
+.block__text {	
+	font-family: 'Pacifico', cursive;
+	color: #030303;
+	font-weight: 700;
+	padding: 30px;
+}
+
+.block__text2 p{
+	font-family: 'PT Serif', serif;
+	color: #070403;
+	text-decoration: line-through;
+	padding: 30px 50px 20px 10px;  /* пробуем и такую запись*/
+	}
+
+.block__text3 span {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color: #3726a3;
+	background-color: #f0ee7b;
+	text-align: center;
+	padding: 60px; /* что же ты натворил? :) "про спан и падин я помню, просто экспериментирую"*/
+	display: block; /* исправляем косяк))*/
+}
+
+/* немножко поработаем с общим стилем в некоторых классах */
+.block__text4,
+.block__text5,
+.block__text6,
+.block__text7,
+.block__text8,
+.block__text9,
+.block__text10 {
+	text-indent: 55px;
+	background-color: #bcd3d2;
+	color: #0d81ee;
+	word-spacing: 10px;
+	max-width: 500px;
+	min-width: 900px;
+}
+
+/* перемешаем спан*/
+.block__text5 span {
+	font-family:'PT Serif', serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	margin: 50px;  /* все перемешалось...надо исправлять*/
+	display: block;  /* вот так лучше*/
+}
+/* а тут используем минусовой margin и поднимем картинку на текст*/
+.block__text7 img {
+	margin: -50px -30px -50px 90px;
+}
+
+/* переместим остальные картинки перемешаем*/
+img {
+	margin: 40px 30px 60px 100px;
+}
+
+
+.block__stih {
+	font-family: 'PT Serif', serif;
+	background-color: yellowgreen;
+	font-size: 30px;
+	max-width: 400px;
+	max-height: 900px;
+	margin: 50px;
+	padding: 30px;
+	}
+
+	
+
